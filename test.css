@@ -1,0 +1,61 @@
+.ios-app-release-alert-bar {
+    height: 60px;
+    background-color: #d6bafb;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    line-height: 30px;
+    align-items: center;
+    max-width: 768px;
+    margin: auto
+}
+
+.ios-app-release-text {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px
+}
+
+.ios-app-download-btn-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 4px;
+    margin-right: 4px
+}
+
+.ios-app-download-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    height: 16px;
+    width: 70px;
+    text-align: center;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center
+}
+
+.ios-app-release-bar-delete-btn {
+    height: 20px;
+    margin-left: 10px
+}
+
+.offcanvas {
+    width: 400px!important;
+    height: 250px!important;
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none
+}
